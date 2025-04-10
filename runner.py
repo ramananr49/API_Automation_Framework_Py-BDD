@@ -8,7 +8,7 @@ def run_behave_with_allure():
     # Generate date and time for folder structure
     current_time = datetime.now()
     date_str = current_time.strftime("%Y-%m-%d")
-    time_str = current_time.strftime("%I-%M-%S %p")
+    time_str = current_time.strftime("%I-%M-%S-%p")
     result_dir = f"reports/{date_str}/{time_str}"
     allure_results = "reports/allure-results"
 
