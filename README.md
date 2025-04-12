@@ -33,6 +33,7 @@ All dependencies are listed in `requirements.txt`. Main tools used:
 - `behave`
 - `requests`
 - `allure-behave`
+- `mysql-connector-python`
 
 ---
 
