@@ -41,7 +41,7 @@ All dependencies are listed in `requirements.txt`. Main tools used:
 | Task                    | Command                         |
 |-------------------------|----------------------------------|
 | Run tests               | `python runner.py`              |
-| Run Specific feature file | `python runner.py -f "feature-file-name"` |
+| Run Specific feature file | `python runner.py -f features/feature-file-name` |
 | Run Specific tags       | `python runner.py -t "tag_name"` |
 | Run test by name        | `python runner.py -n "testcase_name"` |
 | Generate the step_impl methods | `behave --dry-run -f plain` |
